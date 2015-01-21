@@ -15,7 +15,6 @@ export PATH="$HOME/local/node/bin:$PATH"
 export PATH="/opt/splunkforwarder/bin:$PATH"
 export PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
 export PATH="/usr/local/share/npm/bin:$PATH"
-export PATH="/Applications/MAMP/Library/bin:$PATH"
 eval "$(rbenv init -)"
 
 # use .localrc for SUPER SECRET CRAP that you don't
