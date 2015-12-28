@@ -3,11 +3,11 @@ if has('vim_starting')
   set nocompatible               " Be iMproved
 
   " Required:
-  set runtimepath+=/Users/akrawiec/.vim/bundle/neobundle.vim/
+  set runtimepath+=/Users/adam/.vim/bundle/neobundle.vim/
 endif
 
 " Required:
-call neobundle#begin(expand('/Users/akrawiec/.vim/bundle'))
+call neobundle#begin(expand('/Users/adam/.vim/bundle'))
 
 " Let NeoBundle manage NeoBundle
 " Required:
