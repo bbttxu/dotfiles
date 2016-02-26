@@ -1,4 +1,4 @@
-set -g default-shell /bin/zsh
+set -g default-shell /bin/fish
 
 # reload key
 bind r source-file ~/.tmux.conf

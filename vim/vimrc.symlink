@@ -1,19 +1,20 @@
 
-if has('vim_starting')
+"NeoBundle Scripts-----------------------------
+if &compatible
   set nocompatible               " Be iMproved
-
-  " Required:
-  set runtimepath+=/Users/akrawiec/.vim/bundle/neobundle.vim/
 endif
 
 " Required:
-call neobundle#begin(expand('/Users/akrawiec/.vim/bundle'))
+set runtimepath^=/Users/adam/.vim/bundle/neobundle.vim/
+
+" Required:
+call neobundle#begin(expand('/Users/adam/.vim/bundle'))
 
 " Let NeoBundle manage NeoBundle
 " Required:
 NeoBundleFetch 'Shougo/neobundle.vim'
 
-" My Bundles here:
+" Add or remove your Bundles here:
 NeoBundle 'Shougo/neosnippet.vim'
 NeoBundle 'Shougo/neosnippet-snippets'
 NeoBundle 'tpope/vim-fugitive'
