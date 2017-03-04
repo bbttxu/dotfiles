@@ -1,0 +1,1 @@
+/Users/adam/.dotfiles/fish/config.symlink/fish.symlink/config.fish.symlink
