@@ -10,13 +10,6 @@ export PROJECTS=~/code
 # source every .zsh file in this rep
 for config_file ($ZSH/**/*.zsh) source $config_file
 
-export PATH="$HOME/.rbenv/bin:/usr/local/lib/node_modules:/opt/rbenv/bin:/usr/local/bin:$PATH"
-export PATH="$HOME/local/node/bin:$PATH"
-export PATH="/opt/splunkforwarder/bin:$PATH"
-export PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
-export PATH="/usr/local/share/npm/bin:$PATH"
-eval "$(rbenv init -)"
-
 # use .localrc for SUPER SECRET CRAP that you don't
 # want in your public, versioned repo.
 if [[ -a ~/.localrc ]]
@@ -24,7 +17,6 @@ then
   source ~/.localrc
 fi
 
-source "`brew --prefix`/etc/grc.bashrc"
 
 # initialize autocomplete here, otherwise functions won't be loaded
 # autoload -U compinit
@@ -88,3 +80,6 @@ export EDITOR=vim
 
 # added by travis gem
 [ -f /Users/akrawiec/.travis/travis.sh ] && source /Users/akrawiec/.travis/travis.sh
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
