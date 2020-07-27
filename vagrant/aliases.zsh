@@ -1,5 +1,0 @@
-alias vs="vagrant status"
-alias vu="vagrant up"
-alias vp="vagrant provision"
-alias vd="vagrant destroy -f && knife client delete precise64 -y && knife node delete precise64 -y"
-alias vsh="vagrant ssh"

@@ -1,1 +1,0 @@
-alias php-check-syntax="find . -type f -name '*.php' -exec php -l '{}' \;"

@@ -1,4 +1,0 @@
-#!/bin/bash
-knife rackspace server delete $1 -y
-knife client delete $1 -y
-knife node delete $1 -y
