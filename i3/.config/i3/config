@@ -180,7 +180,7 @@ bar {
         status_command i3status
 }
 
-exec --no-startup-id feh --bg-scale ~/Pictures/backgrounds/ 
+exec --no-startup-id feh --bg-scale --randomize ~/Pictures/backgrounds/ 
 
 # sleep on lid close?
 exec --no-startup-id xss-lock -- ~/.config/i3/lock.sh
