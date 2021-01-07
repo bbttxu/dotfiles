@@ -206,6 +206,9 @@ exec --no-startup-id xautolock -time 20 -locker "i3lock -c 000000"
 exec_always ./.screenlayout/default.sh
 exec_always picom -bc
 
+exec_always --no-startup-id dunst -config ~/.config/dunst/dunstrc
+
+# Gaps
 new_window pixel 0
 new_float pixel 0
 hide_edge_borders both
