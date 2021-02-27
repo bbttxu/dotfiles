@@ -1,3 +1,0 @@
-{'repo': v:val.repo, 'rev': get(v:val, 'rev', '')}
-0
-[{'rev': '', 'repo': '/home/adam/.vim/bundles/repos/github.com/Shougo/dein.vim'}, {'rev': '', 'repo': 'Shougo/neosnippet-snippets'}, {'rev': '', 'repo': 'Shougo/neosnippet.vim'}, {'rev': '', 'repo': 'airblade/vim-gitgutter'}, {'rev': '', 'repo': 'bling/vim-airline'}, {'rev': '', 'repo': 'easymotion/vim-easymotion'}, {'rev': '', 'repo': 'editorconfig/editorconfig-vim'}, {'rev': '', 'repo': 'kchmck/vim-coffee-script'}, {'rev': '', 'repo': 'kien/ctrlp.vim'}, {'rev': '3787e5', 'repo': 'Shougo/vimshell'}]
