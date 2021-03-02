@@ -22,8 +22,12 @@ if dein#load_state('/home/adam/.vim/bundles')
 	call dein#add('airblade/vim-gitgutter')
 	call dein#add('editorconfig/editorconfig-vim')
 	call dein#add('easymotion/vim-easymotion')
-	
+	call dein#add('scrooloose/syntastic')
+	call dein#add('def-lkb/merlin')
+	call dein#add('OCamlPro/ocp-indent')
+	call dein#add('jpalardy/vim-slime')	
 	call dein#add('kchmck/vim-coffee-script')
+	call dein#add('prettier/vim-prettier')
 
   " You can specify revision/branch/tag.
   call dein#add('Shougo/vimshell', { 'rev': '3787e5' })
@@ -45,40 +49,6 @@ endif
 "End dein Scripts-------------------------
 
 " My Bundles here:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -105,3 +75,8 @@ map <C-n> :NERDTreeToggle<CR>
 nnoremap <SPACE> <Nop>
 let mapleader = "\<Space>" 
 inoremap jk <esc>
+
+let g:opamshare = substitute(system('opam config var share'),'\n$','','''')
+execute "set rtp+=" . g:opamshare . "/merlin/vim"
+
+let g:prettier#exec_cmd_path = "~/.nvm/versions/node/v8.12.0/bin/prettier"
